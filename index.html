@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfólio Leonardo Taborda</title>
+</head>
+<body>
+    <header>
+        <h1>Portfólio Leonardo Taborda</h1>
+    </header>
+
+    <!--Links de menu para navegar diretamente até cada seção da página-->
+    <nav class="menu">
+        <ul>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#education">Formação</a></li>
+            <li><a href="#additional-courses">Cursos adicionais</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="about">
+        <h2>Quem sou eu?</h2>
+        <img src="img/profile.jpg" alt="Imagem de Leonardo">
+        <p class="text">Me chamo Leonardo, natural de Santa Maria-RS, trabalho como Analista de Suporte Técnico em uma provedora de internet da minha cidade natal. Também sou estudante de Análise e Desenvolvimento de Sistemas na UNINTER e mesmo antes de iniciar a graduação, já estudava programação.<br>
+        Minhas atividades favoritas são musculação, leitura e passar tempo com a família. Também gosto de praticar boxe e jogar games de diversos tipos no tempo livre.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Formação</h2>
+        <ul id="education-list">
+            <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (cursando)</li>
+            <li>Técnico em Informática (2017-2020) | Não finalizado</li>
+        </ul>
+    </section>
+
+    <section id="additional-courses">
+        <h2>Cursos adicionais</h2>
+        <ul id="courses-list">
+            <li>NDG Linux Unhatched | Cisco Networking Academy</li>
+            <li>Lei Geral de Proteção de Dados (LGPD) | Fundação Bradesco</li>
+            <li>Segurança em Tecnologia da Informação | Fundação Bradesco</li>
+            <li>Introdução a roteamento | Intelbras</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <a href="https://www.linkedin.com/in/leonardod3v/" target="_blank">Linkedin</a>
+        <p>E-mail: leonardo.assist@gmail.com</p>
+        <br><br>
+        <h3>Entre em contato comigo:</h3>
+        <!--Formulário para preenchimento de dados, caso o usuário desejar entrar em contato-->
+        <form action="#">
+            <!--Tag label serve para orientar o usuário sobre o campo a ser preenchido e também para questões de acessibilidade-->
+            <label for="">Nome</label>
+            <input type="text" name="name" id="name">
+
+            <label for="">E-mail</label>
+            <input type="email" name="" id="">
+
+            <label for="">Assunto</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+            <!--Botão com type reset para limpar as informações de formulário-->
+            <button type="reset">Limpar</button>
+            <!--Botão com type submit para enviar as informações do formulário (no caso, apenas para demonstração)-->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <p><small>*Site feito para fins educacionais.*</small></p>
+</body>
+</html>
